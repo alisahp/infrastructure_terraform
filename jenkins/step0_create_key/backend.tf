@@ -1,7 +1,7 @@
 terraform {
-   backend "s3" {
-    bucket = "jenkins-va"
-    region = "us-east-1" 
+  backend "s3" {
+    bucket = "terraform-us-virgin"
+    region = "us-east-1"
     key    = "terraform"
   }
 }
